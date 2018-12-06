@@ -103,3 +103,6 @@ def shortMove(start, count, digitCount):
     elif start == 0:
         digitCount[7] += count
         digitCount[9] += count
+
+if __name__ == '__main__':
+   app.run(debug=True)
