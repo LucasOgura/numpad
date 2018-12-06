@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DMG Blockchain Test</title>
+</head>
+<h1 class="title">DMG Blockchain Test</h1>
+<form method="POST" id="userInputForm">
+    <input type="text" name="numberInput" placeholder="Enter n qualifying numbers" class="inputBox">
+    <input type="submit" onclick="loading()" id="submitBtn">
+</form>
+
+<section>
+    <h2>Results</h2>
+    {% if result %}
+    <h3>{{ result }} qualifying numbers</h3>
+    {% endif %}
+</section>
+</html>
